@@ -1,5 +1,6 @@
 # Finance AI
-Finance AI é uma plataforma SaaS de gerenciamento financeiro que permite aos usuários adicionar e controlar transações, incluindo depósitos, despesas e investimentos. O sistema oferece funcionalidades de gestão financeira, geração de relatórios (somente para usuários assinantes) e visualização de dados financeiros no dashboard.
+Finance AI é uma plataforma SaaS de gerenciamento financeiro que permite aos usuários adicionar e controlar transações, incluindo depósitos, despesas e investimentos.
+O sistema oferece funcionalidades de gestão financeira, geração de relatórios (somente para usuários assinantes) e visualização de dados financeiros no dashboard.
 
 
 ## Funcionalidades
