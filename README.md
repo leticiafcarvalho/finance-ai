@@ -4,18 +4,25 @@ Finance AI é uma plataforma SaaS de gerenciamento financeiro que permite aos us
 
 ## Funcionalidades
 Adicionar Transações: Permite adicionar transações de depósito, despesas e investimentos.
+
 Edição e Exclusão de Transações: Os usuários podem editar ou excluir transações existentes.
+
 Dashboard: Painel de controle para visualizar transações e gerar relatórios financeiros.
+
 Relatórios de IS: Disponível apenas para usuários com assinatura paga.
+
 Login de Usuário: Apenas usuários logados podem acessar e gerenciar suas transações.
 
 ## Planos de Assinatura
 Versão Gratuita: Acesso básico ao sistema com funcionalidades limitadas.
+
 Versão Paga: Acesso completo, incluindo a geração de relatórios de IS e outras funcionalidades avançadas.
 
 ## Tecnologias Utilizadas
 Frontend: React, Next.js, Tailwind CSS
+
 Backend: Node.js, Prisma (para banco de dados)
+
 Banco de Dados: PostgreSQL
 
 ## Como Rodar Localmente
