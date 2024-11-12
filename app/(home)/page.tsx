@@ -12,12 +12,11 @@ import { canUserAddTransaction } from "../_data/can-user-add-transaction";
 import AiReportButton from "./_components/ai-report-button";
 
 interface HomeProps {
-  searchParams: {
-    month: string;
-  };
+  searchParams: Promise<{ month: string }>;
 }
 
-const Home = async ({ searchParams: { month } }: HomeProps) => {
+const Home = async ({ searchParams }: HomeProps) => {
+  const { month } = await searchParams; // Usa await para obter month do searchParams
   const { userId } = await auth();
   if (!userId) {
     redirect("/login");
