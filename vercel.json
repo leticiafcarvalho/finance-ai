@@ -1,17 +1,13 @@
 {
   "builds": [
     {
-      "src": "app.js",
+      "src": "package.json",
       "use": "@vercel/node"
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "app.js"
+  "build": {
+    "env": {
+      "PRISMA_GENERATE": "prisma generate"
     }
-  ],
-  "env": {
-    "PRISMA_GENERATE": "prisma generate"
   }
 }
